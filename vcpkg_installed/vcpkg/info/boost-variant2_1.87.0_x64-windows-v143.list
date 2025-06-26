@@ -1,0 +1,15 @@
+x64-windows-v143/
+x64-windows-v143/include/
+x64-windows-v143/include/boost/
+x64-windows-v143/include/boost/variant2.hpp
+x64-windows-v143/include/boost/variant2/
+x64-windows-v143/include/boost/variant2/variant.hpp
+x64-windows-v143/share/
+x64-windows-v143/share/boost-variant2/
+x64-windows-v143/share/boost-variant2/copyright
+x64-windows-v143/share/boost-variant2/vcpkg.spdx.json
+x64-windows-v143/share/boost-variant2/vcpkg_abi_info.txt
+x64-windows-v143/share/boost_variant2/
+x64-windows-v143/share/boost_variant2/boost_variant2-config-version.cmake
+x64-windows-v143/share/boost_variant2/boost_variant2-config.cmake
+x64-windows-v143/share/boost_variant2/boost_variant2-targets.cmake

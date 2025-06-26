@@ -286,11 +286,9 @@ __pycache__/
 /build*/
 /downloads/
 /installed*/
-/vcpkg_installed*/
 /packages/
 /scripts/buildsystems/tmp/
 #ignore custom triplets
-/triplets/*
 #add vcpkg-designed triplets back in
 !/triplets/arm-uwp.cmake
 !/triplets/arm64-windows.cmake
