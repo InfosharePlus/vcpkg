@@ -3,13 +3,13 @@
   "spdxVersion": "SPDX-2.2",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
-  "documentNamespace": "https://spdx.org/spdxdocs/cpprestsdk-x64-windows-v143-2.10.19#3-0fa75f96-23bc-4f59-80b3-67131ebade91",
-  "name": "cpprestsdk:x64-windows-v143@2.10.19#3 64804ae142f834323c9d80212004bc7c57189410418eb94e7624d35ae4d7e785",
+  "documentNamespace": "https://spdx.org/spdxdocs/cpprestsdk-x64-windows-v143-2.10.19#3-de4549bd-fe5e-4105-bfd5-aca766ba303b",
+  "name": "cpprestsdk:x64-windows-v143@2.10.19#3 a1288a286d3514d5dd821c8714b7c5751c3fb1dafd59da438501695d75e55e49",
   "creationInfo": {
     "creators": [
       "Tool: vcpkg-2025-05-19-ece4c0f6b8fae9e94513d544c7aa753dd2c82337"
     ],
-    "created": "2025-06-06T15:19:25Z"
+    "created": "2025-06-26T17:10:09Z"
   },
   "relationships": [
     {
@@ -134,7 +134,7 @@
     {
       "name": "cpprestsdk:x64-windows-v143",
       "SPDXID": "SPDXRef-binary",
-      "versionInfo": "64804ae142f834323c9d80212004bc7c57189410418eb94e7624d35ae4d7e785",
+      "versionInfo": "a1288a286d3514d5dd821c8714b7c5751c3fb1dafd59da438501695d75e55e49",
       "downloadLocation": "NONE",
       "licenseConcluded": "MIT",
       "licenseDeclared": "NOASSERTION",

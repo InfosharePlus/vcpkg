@@ -3,13 +3,13 @@
   "spdxVersion": "SPDX-2.2",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
-  "documentNamespace": "https://spdx.org/spdxdocs/apr-x64-windows-v143-1.7.5#2-3b25c12c-6351-4df7-b51a-cb899d92f37f",
-  "name": "apr:x64-windows-v143@1.7.5#2 804c9c9a8dcfe9e09bd79cb6d945e42058fad6f4faab58c043e869379615512e",
+  "documentNamespace": "https://spdx.org/spdxdocs/apr-x64-windows-v143-1.7.5#2-28ca1a5c-909f-40a1-a121-b299c82f6043",
+  "name": "apr:x64-windows-v143@1.7.5#2 e0ab201808f21447534775bbd8b1e63dd5d1b67deb800904ad7d8b4f7193f7f9",
   "creationInfo": {
     "creators": [
       "Tool: vcpkg-2025-05-19-ece4c0f6b8fae9e94513d544c7aa753dd2c82337"
     ],
-    "created": "2025-06-06T15:19:41Z"
+    "created": "2025-06-26T17:10:31Z"
   },
   "relationships": [
     {
@@ -104,7 +104,7 @@
     {
       "name": "apr:x64-windows-v143",
       "SPDXID": "SPDXRef-binary",
-      "versionInfo": "804c9c9a8dcfe9e09bd79cb6d945e42058fad6f4faab58c043e869379615512e",
+      "versionInfo": "e0ab201808f21447534775bbd8b1e63dd5d1b67deb800904ad7d8b4f7193f7f9",
       "downloadLocation": "NONE",
       "licenseConcluded": "Apache-2.0",
       "licenseDeclared": "NOASSERTION",

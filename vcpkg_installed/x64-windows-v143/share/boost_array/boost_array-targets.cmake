@@ -59,7 +59,7 @@ add_library(Boost::array INTERFACE IMPORTED)
 
 set_target_properties(Boost::array PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "Boost::assert;Boost::config;Boost::core;Boost::static_assert;Boost::throw_exception"
+  INTERFACE_LINK_LIBRARIES "Boost::assert;Boost::config;Boost::static_assert;Boost::throw_exception"
 )
 
 # Load information for each installed configuration.

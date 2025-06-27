@@ -3,13 +3,13 @@
   "spdxVersion": "SPDX-2.2",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
-  "documentNamespace": "https://spdx.org/spdxdocs/boost-uninstall-x64-windows-v143-1.87.0-f56aa0af-b57a-41d1-b1fc-28defb95bcde",
-  "name": "boost-uninstall:x64-windows-v143@1.87.0 55144e85358cc4cd910ebac5aa52033aa1427e2d489b173854875b8d0fde9200",
+  "documentNamespace": "https://spdx.org/spdxdocs/boost-uninstall-x64-windows-v143-1.88.0-33d23757-b4b9-4fd6-b42c-68b7f577be25",
+  "name": "boost-uninstall:x64-windows-v143@1.88.0 1b93a98c88d4c223961eebb4b0652074ba85e7f5ea947065d2d288bf922a687f",
   "creationInfo": {
     "creators": [
       "Tool: vcpkg-2025-05-19-ece4c0f6b8fae9e94513d544c7aa753dd2c82337"
     ],
-    "created": "2025-06-06T15:16:02Z"
+    "created": "2025-06-27T10:47:53Z"
   },
   "relationships": [
     {
@@ -62,8 +62,8 @@
     {
       "name": "boost-uninstall",
       "SPDXID": "SPDXRef-port",
-      "versionInfo": "1.87.0",
-      "downloadLocation": "git+https://github.com/Microsoft/vcpkg@59deb8f474b417f62e4dea071edc08cfa61048f1",
+      "versionInfo": "1.88.0",
+      "downloadLocation": "git+https://github.com/Microsoft/vcpkg@3b2f9f82076f2d15124a4e449700848c25bcadcc",
       "licenseConcluded": "MIT",
       "licenseDeclared": "NOASSERTION",
       "copyrightText": "NOASSERTION",
@@ -73,7 +73,7 @@
     {
       "name": "boost-uninstall:x64-windows-v143",
       "SPDXID": "SPDXRef-binary",
-      "versionInfo": "55144e85358cc4cd910ebac5aa52033aa1427e2d489b173854875b8d0fde9200",
+      "versionInfo": "1b93a98c88d4c223961eebb4b0652074ba85e7f5ea947065d2d288bf922a687f",
       "downloadLocation": "NONE",
       "licenseConcluded": "MIT",
       "licenseDeclared": "NOASSERTION",
@@ -112,7 +112,7 @@
       "checksums": [
         {
           "algorithm": "SHA256",
-          "checksumValue": "28351aa0c6c18179f7bcd8f389926318bacfaa2bd1d4b12791c38fb6a3726fcb"
+          "checksumValue": "cb60547ce55b6277f01686131d7fc1950648575ed405721d568970bae06798b2"
         }
       ],
       "licenseConcluded": "NOASSERTION",

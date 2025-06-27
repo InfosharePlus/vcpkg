@@ -3,13 +3,13 @@
   "spdxVersion": "SPDX-2.2",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
-  "documentNamespace": "https://spdx.org/spdxdocs/boost-numeric-conversion-x64-windows-v143-1.87.0-3fb7e676-eb6f-42e4-b632-923ee459a671",
-  "name": "boost-numeric-conversion:x64-windows-v143@1.87.0 e78aa861582f447533d2e2de6856c034000366189956538dd32b2ae321cabe3e",
+  "documentNamespace": "https://spdx.org/spdxdocs/boost-numeric-conversion-x64-windows-v143-1.88.0-b652bbf2-a4bc-4fc2-87e9-c32a5c16ba03",
+  "name": "boost-numeric-conversion:x64-windows-v143@1.88.0 917fc76cb14e88f948a4e9147de22531991fb25eccd8a0c87a151af2519e01eb",
   "creationInfo": {
     "creators": [
       "Tool: vcpkg-2025-05-19-ece4c0f6b8fae9e94513d544c7aa753dd2c82337"
     ],
-    "created": "2025-06-06T15:17:44Z"
+    "created": "2025-06-27T10:49:19Z"
   },
   "relationships": [
     {
@@ -52,8 +52,8 @@
     {
       "name": "boost-numeric-conversion",
       "SPDXID": "SPDXRef-port",
-      "versionInfo": "1.87.0",
-      "downloadLocation": "git+https://github.com/Microsoft/vcpkg@383b718f507081bc65d72ba2aee6932eed881e45",
+      "versionInfo": "1.88.0",
+      "downloadLocation": "git+https://github.com/Microsoft/vcpkg@79af9270e64b3948e4fe3c0c911614c090450bae",
       "homepage": "https://www.boost.org/libs/numeric/conversion",
       "licenseConcluded": "BSL-1.0",
       "licenseDeclared": "NOASSERTION",
@@ -64,7 +64,7 @@
     {
       "name": "boost-numeric-conversion:x64-windows-v143",
       "SPDXID": "SPDXRef-binary",
-      "versionInfo": "e78aa861582f447533d2e2de6856c034000366189956538dd32b2ae321cabe3e",
+      "versionInfo": "917fc76cb14e88f948a4e9147de22531991fb25eccd8a0c87a151af2519e01eb",
       "downloadLocation": "NONE",
       "licenseConcluded": "BSL-1.0",
       "licenseDeclared": "NOASSERTION",
@@ -74,14 +74,14 @@
     {
       "SPDXID": "SPDXRef-resource-0",
       "name": "boostorg/numeric_conversion",
-      "downloadLocation": "git+https://github.com/boostorg/numeric_conversion@boost-1.87.0",
+      "downloadLocation": "git+https://github.com/boostorg/numeric_conversion@boost-1.88.0",
       "licenseConcluded": "NOASSERTION",
       "licenseDeclared": "NOASSERTION",
       "copyrightText": "NOASSERTION",
       "checksums": [
         {
           "algorithm": "SHA512",
-          "checksumValue": "35fa2752fa008c6cd750b4ad1559075a7b3f80da6579c2dc07b28021b1c19459c956652e34c1ae10d3796fb05f7f42e91b5b5398436407bbc3e157a6f8e37606"
+          "checksumValue": "34dc8072533495c6425ce8e620e3fa71aed2f969d9ef1b01fb6854a491e1a525c222679bb5bca7027c12a4ebbb94d9fe11d2a73fb3936a3445a6ebc608f1bd14"
         }
       ]
     }
@@ -93,7 +93,7 @@
       "checksums": [
         {
           "algorithm": "SHA256",
-          "checksumValue": "48b77b4634b4dc4fd2734f301e803792fd5b0c94e01e266868a225130eb1254d"
+          "checksumValue": "8a23c88d5479873803197c1dcc5e653fd22511ae6d6cd019581fc4b0af6a14de"
         }
       ],
       "licenseConcluded": "NOASSERTION",
@@ -105,7 +105,7 @@
       "checksums": [
         {
           "algorithm": "SHA256",
-          "checksumValue": "4b20be3ed106a69e3f63126041d0602f9a778b5952721814f696733c752d92fb"
+          "checksumValue": "d5925bc5f3abab682f330aa443d526fa2909da5e7daa65f9acbf655a37394b78"
         }
       ],
       "licenseConcluded": "NOASSERTION",

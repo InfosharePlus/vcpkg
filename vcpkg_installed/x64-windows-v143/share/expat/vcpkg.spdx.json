@@ -3,13 +3,13 @@
   "spdxVersion": "SPDX-2.2",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
-  "documentNamespace": "https://spdx.org/spdxdocs/expat-x64-windows-v143-2.6.4-641c7317-bbed-466c-9239-969959d49db2",
-  "name": "expat:x64-windows-v143@2.6.4 e4d657ca1f9d40cbb3a2509e18af268ec32a974bf7360eca2a8063ffe39f4ab5",
+  "documentNamespace": "https://spdx.org/spdxdocs/expat-x64-windows-v143-2.6.4-99804c7a-8ed0-4038-b46c-c4434b2c2c83",
+  "name": "expat:x64-windows-v143@2.6.4 5474f931077c21c5d374a137c7f8bb105066f6614925ae5a73f6127bea37cc79",
   "creationInfo": {
     "creators": [
       "Tool: vcpkg-2025-05-19-ece4c0f6b8fae9e94513d544c7aa753dd2c82337"
     ],
-    "created": "2025-06-06T15:19:35Z"
+    "created": "2025-06-26T17:10:18Z"
   },
   "relationships": [
     {
@@ -74,7 +74,7 @@
     {
       "name": "expat:x64-windows-v143",
       "SPDXID": "SPDXRef-binary",
-      "versionInfo": "e4d657ca1f9d40cbb3a2509e18af268ec32a974bf7360eca2a8063ffe39f4ab5",
+      "versionInfo": "5474f931077c21c5d374a137c7f8bb105066f6614925ae5a73f6127bea37cc79",
       "downloadLocation": "NONE",
       "licenseConcluded": "MIT",
       "licenseDeclared": "NOASSERTION",

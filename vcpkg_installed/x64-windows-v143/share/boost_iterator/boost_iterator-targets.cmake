@@ -59,7 +59,7 @@ add_library(Boost::iterator INTERFACE IMPORTED)
 
 set_target_properties(Boost::iterator PROPERTIES
   INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include"
-  INTERFACE_LINK_LIBRARIES "Boost::assert;Boost::concept_check;Boost::config;Boost::core;Boost::detail;Boost::function_types;Boost::fusion;Boost::mpl;Boost::optional;Boost::smart_ptr;Boost::static_assert;Boost::type_traits;Boost::utility"
+  INTERFACE_LINK_LIBRARIES "Boost::assert;Boost::concept_check;Boost::config;Boost::core;Boost::detail;Boost::fusion;Boost::mpl;Boost::optional;Boost::type_traits;Boost::utility"
 )
 
 # Load information for each installed configuration.

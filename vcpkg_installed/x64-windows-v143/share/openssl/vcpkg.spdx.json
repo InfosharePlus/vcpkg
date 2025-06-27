@@ -3,13 +3,13 @@
   "spdxVersion": "SPDX-2.2",
   "dataLicense": "CC0-1.0",
   "SPDXID": "SPDXRef-DOCUMENT",
-  "documentNamespace": "https://spdx.org/spdxdocs/openssl-x64-windows-v143-3.4.1-254272c5-5549-48cb-a65b-f42feb54d593",
-  "name": "openssl:x64-windows-v143@3.4.1 91c361e9ef8a4d979bbfc9b45deb1866d959d84581f1142414aa57527c692977",
+  "documentNamespace": "https://spdx.org/spdxdocs/openssl-x64-windows-v143-3.4.1-6e09b95f-6a20-4139-ac6f-76d76fcf578b",
+  "name": "openssl:x64-windows-v143@3.4.1 b5ea418942366abcc1e1e4c02d2daf2c8c0faa44ad41f4b1c060e3dabeb4afb0",
   "creationInfo": {
     "creators": [
       "Tool: vcpkg-2025-05-19-ece4c0f6b8fae9e94513d544c7aa753dd2c82337"
     ],
-    "created": "2025-06-06T15:23:40Z"
+    "created": "2025-06-26T17:14:20Z"
   },
   "relationships": [
     {
@@ -234,7 +234,7 @@
     {
       "name": "openssl:x64-windows-v143",
       "SPDXID": "SPDXRef-binary",
-      "versionInfo": "91c361e9ef8a4d979bbfc9b45deb1866d959d84581f1142414aa57527c692977",
+      "versionInfo": "b5ea418942366abcc1e1e4c02d2daf2c8c0faa44ad41f4b1c060e3dabeb4afb0",
       "downloadLocation": "NONE",
       "licenseConcluded": "Apache-2.0",
       "licenseDeclared": "NOASSERTION",

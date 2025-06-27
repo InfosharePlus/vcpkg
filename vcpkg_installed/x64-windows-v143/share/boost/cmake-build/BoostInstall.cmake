@@ -67,11 +67,6 @@ function(__boost_install_set_output_name LIB TYPE VERSION)
   set(name_debug ${LIB})
   set(name_release ${LIB})
 
-  # prefix
-  if(WIN32 AND TYPE STREQUAL "STATIC_LIBRARY")
-    #set_target_properties(${LIB} PROPERTIES PREFIX "lib")
-  endif()
-
   # toolset
   if(BOOST_INSTALL_LAYOUT STREQUAL versioned)
 
@@ -289,16 +284,6 @@ function(boost_install_target)
 
   set(CONFIG_INSTALL_DIR "${BOOST_INSTALL_CMAKEDIR}/${LIB}-${__VERSION}")
 
-  if(0)
-  if(TYPE STREQUAL "SHARED_LIBRARY")
-    string(APPEND CONFIG_INSTALL_DIR "-shared")
-  endif()
-
-  if(TYPE STREQUAL "STATIC_LIBRARY")
-    string(APPEND CONFIG_INSTALL_DIR "-static")
-  endif()
-  endif()
-
   install(TARGETS ${LIB} EXPORT ${LIB}-targets
     # explicit destination specification required for 3.13, 3.14 no longer needs it
     RUNTIME DESTINATION "${CMAKE_INSTALL_BINDIR}"
@@ -381,13 +366,6 @@ function(boost_install_target)
       elseif(dep MATCHES "zstd::libzstd_(shared|static)")
 
         string(APPEND CONFIG_FILE_CONTENTS "find_dependency(zstd CONFIG)\n")
-
-      elseif(dep STREQUAL "MPI::MPI_C")
-
-        # COMPONENTS requires 3.9, but the imported target also requires 3.9
-        string(APPEND CONFIG_FILE_CONTENTS "enable_language(C)\n")
-        string(APPEND CONFIG_FILE_CONTENTS "find_dependency(MPI COMPONENTS C)\n")
-
 
       elseif(dep STREQUAL "MPI::MPI_CXX")
 
@@ -472,44 +450,6 @@ function(boost_install_target)
   else()
 
     write_basic_package_version_file("${CONFIG_VERSION_FILE_NAME}" COMPATIBILITY SameMajorVersion)
-
-  endif()
-
-  if(1)
-
-    # These two libraries are hardcoded to STATIC
-
-  else()
-
-    if(TYPE STREQUAL "SHARED_LIBRARY")
-
-      file(APPEND "${CONFIG_VERSION_FILE_NAME}"
-
-        "\n"
-        "# Do not return shared libraries when Boost_USE_STATIC_LIBS is ON\n"
-        "if(NOT PACKAGE_VERSION_UNSUITABLE AND Boost_USE_STATIC_LIBS)\n"
-        "  set(PACKAGE_VERSION_UNSUITABLE TRUE)\n"
-        "  set(PACKAGE_VERSION \"\${PACKAGE_VERSION} (shared)\")\n"
-        "  return()\n"
-        "endif()\n"
-      )
-
-    endif()
-
-    if(TYPE STREQUAL "STATIC_LIBRARY")
-
-      file(APPEND "${CONFIG_VERSION_FILE_NAME}"
-
-        "\n"
-        "# Do not return static libraries when Boost_USE_STATIC_LIBS is OFF\n"
-        "if(NOT PACKAGE_VERSION_UNSUITABLE AND DEFINED Boost_USE_STATIC_LIBS AND NOT Boost_USE_STATIC_LIBS)\n"
-        "  set(PACKAGE_VERSION_UNSUITABLE TRUE)\n"
-        "  set(PACKAGE_VERSION \"\${PACKAGE_VERSION} (static)\")\n"
-        "  return()\n"
-        "endif()\n"
-      )
-
-    endif()
 
   endif()
 
